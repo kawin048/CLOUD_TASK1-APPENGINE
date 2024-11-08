@@ -1,5 +1,5 @@
-# Deployment Web Application on App Engine
-This repository contains the source code for a Nodejs Todo application. The application can be deployed  on Google Cloud using a App Engine.Detailed instructions are provided to guide you through setting up and deploying the application on cloud.
+# Deploying a Web Application on App Engine
+This repository contains the source code for a Node.js To-Do application. The application can be deployed on Google Cloud using App Engine, making it scalable and accessible over the web. Detailed instructions are provided below to guide you through setting up and deploying the application on Google Cloud.
 
 # Table of Contents
 - [Prerequisites](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#prerequisites)
@@ -40,18 +40,18 @@ node server.js
 # App Deployment to AppEngine
 
 1. Install Google Cloud SDK
-  - After installlation complete and Run gcloud init to initialize the SDK and log in to your Google Cloud account.
+  - After installlation complete and run gcloud init to initialize the SDK and log in to your Google Cloud account.
 ```bash
 gcloud init
 ```
 2. create app.yaml for app engine deployment
-  - In the root of your project, create a file called app.yaml. This file is required by App Engine to know how to run your application.
+  - In the root of your project, create a file called app.yaml.This file specifies the runtime and entry point for App Engine.
 ```bash
 runtime: nodejs16
 entrypoint: server.js
 ```
 3. Set the Default Project and Region:
-  - In VS Code’s integrated terminal, set your Google Cloud project and region. Replace PROJECT_ID and REGION with your actual project ID and preferred App Engine region.
+  - In terminal, set your Google Cloud project and region. Replace PROJECT_ID and REGION with your actual project ID and preferred App Engine region.
 ```bash
 gcloud config set project PROJECT_ID
 gcloud app create --region=REGION
@@ -75,7 +75,7 @@ This will open the deployed app in your default browser.
 
 # Result
 After following all the steps and instructions outlined above, I successfully built and deployed a simple To-Do application, now running on Google Cloud Appengine service.
-- TO ACCESS MY APPLICATION CLICK HERE:[MY APP](https://asuvath-msd07.as.r.appspot.com/)
+- To access the application: :[Click here to view the app](https://asuvath-msd07.as.r.appspot.com/)
 
 
 
