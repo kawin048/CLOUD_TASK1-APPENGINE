@@ -4,7 +4,7 @@ This repository contains the source code for a Nodejs Todo application. The appl
 # Table of Contents
 - [Prerequisites](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#prerequisites)
 - [Overview](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#overview)
-- [Installation on Local](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#installation)
+- [Installation on Local](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#installation-on-local)
 - [App Deployment to AppEngine](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#app-deployment-to-appengine)
 - [Result](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#result)
 
@@ -22,17 +22,17 @@ This repository contains the source code for a Nodejs Todo application. The appl
 5. Access the app with url created by App engine.
    
 # Installation on Local
-1.clone the repository from GitHub
+1. clone the repository from GitHub
 ```bash
 https://github.com/kawin048/CLOUD_TASK1-APPENGINE.git
 ```
-2.Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3.Test the application
+3. Test the application
 ```bash
 node server.js
 ```
@@ -40,15 +40,18 @@ node server.js
 # App Deployment to AppEngine
 
 1. Install Google Cloud SDK
-    -After installlation complete and Run gcloud init to initialize the SDK and log in to your Google Cloud account.
-2. create App.yaml for app engine deployment
-     In the root of your project, create a file called app.yaml. This file is required by App Engine to know how to run your application.
+  - After installlation complete and Run gcloud init to initialize the SDK and log in to your Google Cloud account.
+```bash
+gcloud init
+```
+2. create app.yaml for app engine deployment
+  - In the root of your project, create a file called app.yaml. This file is required by App Engine to know how to run your application.
 ```bash
 runtime: nodejs16
 entrypoint: server.js
 ```
 3. Set the Default Project and Region:
-   In VS Code’s integrated terminal, set your Google Cloud project and region. Replace PROJECT_ID and REGION with your actual project ID and preferred App Engine region.
+  - In VS Code’s integrated terminal, set your Google Cloud project and region. Replace PROJECT_ID and REGION with your actual project ID and preferred App Engine region.
 ```bash
 gcloud config set project PROJECT_ID
 gcloud app create --region=REGION
@@ -71,8 +74,8 @@ gcloud app browse
 This will open the deployed app in your default browser.
 
 # Result
-After following all the steps and instructions outlined above, I successfully built and deployed a simple To-Do application, now running on Google Cloud.
-- TO ACCESS MY APPLICATION:[MY APP](https://asuvath-msd07.as.r.appspot.com/)
+After following all the steps and instructions outlined above, I successfully built and deployed a simple To-Do application, now running on Google Cloud Appengine service.
+- TO ACCESS MY APPLICATION click Here:[MY APP](https://asuvath-msd07.as.r.appspot.com/)
 
 
 
