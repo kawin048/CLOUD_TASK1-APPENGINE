@@ -15,9 +15,9 @@ This repository contains the source code for a Node.js To-Do application. The ap
   
 
 # Overview
-1. clone the source code repo from github
+1. Clone the source code repo from github.
 2. Test the app locally.
-3. create app yaml.
+3. Create app.yaml file.
 4. Use Appengine service for deployment of this web app.
 5. Access the app with url created by App engine.
    
