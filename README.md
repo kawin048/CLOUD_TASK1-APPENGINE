@@ -1,19 +1,28 @@
 # Deployment Web Application on App Engine
-This repository contains the source code for a Nodejs TODO application. The application can be deployed  on Google Cloud using a App Engine.
+This repository contains the source code for a Nodejs Todo application. The application can be deployed  on Google Cloud using a App Engine.Detailed instructions are provided to guide you through setting up and deploying the application on cloud.
+
+# Table of Contents
+- [Prerequisites]
+- [Overview]
+- [Installation]
+- [App Deployment to AppEngine]
+- [Access Your Application]
+- [Result]
 
 # Prerequisites
 - A Google Cloud Account 
 - A GCP project with billing enabled.
--  Ensure necessary permissions on Google cloud for deployment.
+- Ensure necessary permissions on Google cloud for deployment.
+  
 
 # Overview
-1. Git clone the source code from github
+1. clone the source code repo from github
 2. Test the app locally.
 3. create app yaml.
-5. Use Appengine service for deployment of this web app.
-7. Access the app with url created by App engine.
+4. Use Appengine service for deployment of this web app.
+5. Access the app with url created by App engine.
    
-# Usage
+# Installation
 1.clone the repository from GitHub
 ```bash
 https://github.com/kawin048/CLOUD_TASK1-APPENGINE.git
@@ -55,14 +64,16 @@ This command will:
 - Upload your app to Google App Engine.
 - Deploy it using the specified configuration.
 
-5.Access Your Application
+5. Access Your Application
 After deployment, you’ll see a link to access your App Engine app in the terminal output. You can also open it by running:
 ```bash
 gcloud app browse
 ```
 This will open the deployed app in your default browser.
 
-#Result
+# Result
+After following all the steps and instructions outlined above, I successfully built and deployed a simple To-Do application, now running on Google Cloud.
+- TO ACCESS MY APPLICATION:[MY APP](https://asuvath-msd07.as.r.appspot.com/)
 
 
 
