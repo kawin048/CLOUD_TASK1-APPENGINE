@@ -75,7 +75,7 @@ This will open the deployed app in your default browser.
 
 # Result
 After following all the steps and instructions outlined above, I successfully built and deployed a simple To-Do application, now running on Google Cloud Appengine service.
-- To access the application: :[Click here to view the app](https://asuvath-msd07.as.r.appspot.com/)
+- To access the application: : [Click here to view the app](https://asuvath-msd07.as.r.appspot.com/)
 
 
 
