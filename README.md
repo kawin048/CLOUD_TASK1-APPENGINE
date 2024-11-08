@@ -51,9 +51,9 @@ gcloud app deploy
 ```
 This command will:
 
--Detect the runtime from app.yaml.
--Upload your app to Google App Engine.
--Deploy it using the specified configuration.
+- Detect the runtime from app.yaml.
+- Upload your app to Google App Engine.
+- Deploy it using the specified configuration.
 
 5.Access Your Application
 After deployment, you’ll see a link to access your App Engine app in the terminal output. You can also open it by running:
