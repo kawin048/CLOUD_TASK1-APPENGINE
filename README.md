@@ -4,7 +4,7 @@ This repository contains the source code for a Nodejs Todo application. The appl
 # Table of Contents
 - [Prerequisites](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#prerequisites)
 - [Overview](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#overview)
-- [Installation](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#installation)
+- [Installation on Local](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#installation)
 - [App Deployment to AppEngine](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#app-deployment-to-appengine)
 - [Result](https://github.com/kawin048/CLOUD_TASK1-APPENGINE/blob/main/README.md#result)
 
@@ -21,7 +21,7 @@ This repository contains the source code for a Nodejs Todo application. The appl
 4. Use Appengine service for deployment of this web app.
 5. Access the app with url created by App engine.
    
-# Installation
+# Installation on Local
 1.clone the repository from GitHub
 ```bash
 https://github.com/kawin048/CLOUD_TASK1-APPENGINE.git
