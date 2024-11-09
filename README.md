@@ -48,7 +48,7 @@ gcloud init
   - In the root of your project, create a file called app.yaml.This file specifies the runtime and entry point for App Engine.
 ```bash
 runtime: nodejs16
-entrypoint: server.js
+
 ```
 3. Set the Default Project and Region:
   - In terminal, set your Google Cloud project and region. Replace PROJECT_ID and REGION with your actual project ID and preferred App Engine region.
